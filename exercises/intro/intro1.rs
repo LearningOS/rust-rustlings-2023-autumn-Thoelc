@@ -1,3 +1,13 @@
+/*
+ * @File: 
+ * @Description: 
+ * @Author: thoelc
+ * @Date: 2023-10-21
+ * @LastEditTime: 2023-10-22
+ * @LastEditors: Thoelc
+ * 
+ * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
+ */
 // intro1.rs
 //
 // About this `I AM NOT DONE` thing:
@@ -36,5 +46,5 @@ fn main() {
     println!(
         "If you want to use rust-analyzer, Rust's LSP implementation, make sure your editor is set"
     );
-    println!("up, and then run `rustlings lsp` before continuing.")
+    println!("up, and then run `rustlings lsp` before continuing.");
 }

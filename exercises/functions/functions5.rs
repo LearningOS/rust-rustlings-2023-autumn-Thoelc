@@ -1,3 +1,13 @@
+/*
+ * @File: 
+ * @Description: 
+ * @Author: thoelc
+ * @Date: 2023-10-21
+ * @LastEditTime: 2023-10-22
+ * @LastEditors: Thoelc
+ * 
+ * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
+ */
 // functions5.rs
 //
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a
@@ -11,5 +21,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
