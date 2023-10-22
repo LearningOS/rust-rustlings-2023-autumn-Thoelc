@@ -1,3 +1,13 @@
+/*
+ * @File: 
+ * @Description: 
+ * @Author: thoelc
+ * @Date: 2023-10-21
+ * @LastEditTime: 2023-10-22
+ * @LastEditors: Thoelc
+ * 
+ * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
+ */
 // clippy1.rs
 //
 // The Clippy tool is a collection of lints to analyze your code so you can
@@ -22,5 +32,5 @@ fn main() {
     println!(
         "The area of a circle with radius {:.2} is {:.5}!",
         radius, area
-    )
+    );
 }
