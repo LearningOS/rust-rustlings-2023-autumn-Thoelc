@@ -1,13 +1,3 @@
-/*
- * @File: 
- * @Description: 
- * @Author: thoelc
- * @Date: 2023-10-21
- * @LastEditTime: 2023-10-22
- * @LastEditors: Thoelc
- * 
- * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
- */
 // hashmaps1.rs
 //
 // A basket of fruits in the form of a hash map needs to be defined. The key
@@ -21,49 +11,20 @@
 // Execute `rustlings hint hashmaps1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
-// use std::collections::HashMap;
 
-// fn fruit_basket() -> HashMap<String, u32> {
-//     let mut basket = // TODO: declare your hash map here.
-
-//     // Two bananas are already given for you :)
-//     basket.insert(String::from("banana"), 2);
-
-//     // TODO: Put more fruits in your basket here.
-
-//     basket
-// }
-
-// #[cfg(test)]
-// mod tests {
-//     use super::*;
-
-//     #[test]
-//     fn at_least_three_types_of_fruits() {
-//         let basket = fruit_basket();
-//         assert!(basket.len() >= 3);
-//     }
-
-//     #[test]
-//     fn at_least_five_fruits() {
-//         let basket = fruit_basket();
-//         assert!(basket.values().sum::<u32>() >= 5);
-//     }
-// }
 use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
-    let mut basket = HashMap::new(); // 在这里声明HashMap
+    let mut basket = HashMap::new();
+    // TODO: declare your hash map here.
 
-    // 已经有两个香蕉了 :)
+    // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
 
-    // 在篮子里放更多水果
-    basket.insert(String::from("apple"), 3);
-    basket.insert(String::from("orange"), 2);
-
+    // TODO: Put more fruits in your basket here.
+    basket.insert(String::from("apple"),3);
+    basket.insert(String::from("orign"),4);
     basket
 }
 

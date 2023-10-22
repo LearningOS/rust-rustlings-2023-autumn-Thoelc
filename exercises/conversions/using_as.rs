@@ -1,13 +1,3 @@
-/*
- * @File: 
- * @Description: 
- * @Author: thoelc
- * @Date: 2023-10-21
- * @LastEditTime: 2023-10-22
- * @LastEditors: Thoelc
- * 
- * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
- */
 // using_as.rs
 //
 // Type casting in Rust is done via the usage of the `as` operator. Please note
@@ -20,27 +10,7 @@
 // Execute `rustlings hint using_as` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
-// fn average(values: &[f64]) -> f64 {
-//     let total = values.iter().sum::<f64>();
-//     total / values.len()
-// }
-
-// fn main() {
-//     let values = [3.5, 0.3, 13.0, 11.7];
-//     println!("{}", average(&values));
-// }
-
-// #[cfg(test)]
-// mod tests {
-//     use super::*;
-
-//     #[test]
-//     fn returns_proper_type_and_value() {
-//         assert_eq!(average(&[3.5, 0.3, 13.0, 11.7]), 7.125);
-//     }
-// }
 fn average(values: &[f64]) -> f64 {
     let total = values.iter().sum::<f64>();
     total / values.len() as f64
