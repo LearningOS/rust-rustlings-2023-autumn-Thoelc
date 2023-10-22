@@ -1,0 +1,1 @@
+rustlings hint clippy3
